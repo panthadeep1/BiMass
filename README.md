@@ -1,9 +1,9 @@
 # BiMass
 BiMass clustering algorithm code+description+experiments for selected datasets.
 
-Steps to run MBSCAN/BiMass:
+Steps to run MBSCAN (MBSCAN folder):
 
-1. Create Subsample <partition.cpp> file is there. Re run it using a bash script.
+1. Create subsamples <partition.cpp> file is there. Re run it using a bash script for converting the subsamples into binary.
 
 2. Create iTree from each subsample, say 't' iTrees from 't' subsamples. Code: <itree.cpp>, run iteratively using a bash script.
 
